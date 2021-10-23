@@ -62,13 +62,6 @@
     - So from the above table we can see that BLEU score is higher for **COCO dataset** than **Flickr30k** and **Flickr8k** dataset.
 - However as the size of the dataset increases we need high computation power in training the model and it may take days of training in GPU.
 - As **COCO dataset** is a huge dataset i.e. **13GB train** and **6GB Validation** so training on such dataset needs high computation and days for completion. Also **hyperparameter tuning** is also challenging.
-- **Google Colab vs EKbana server:**
-    - Training is faster when using Google colab GPU compater to EKbana.
-    - When training using **flickr 8k dataset** it took around 1 day for completion using Google Colab GPU, however it took around 4-5 days for completion using EKbana GPU.
-    - However, one issue using Google Colab GPU is it has a **usage limit** of 12 hours. So to tackle this, we need to train models using multiple accounts.
-    - Also, in EKbana server due to multiple user there is an arise of memory issue. So training with a large dataset will be difficult as it requires days of training in GPU.
-- **Hence:**
-    - Large datasets increase model generalizeability however in response we need to compensate for training time and more resources.
 
 ## Instruction For Running
 - For training and evaluating models you need:
